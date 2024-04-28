@@ -1,17 +1,14 @@
 [tool.poetry]
-name = "linear-regression"
+name = "data-wrangling"
 version = "0.1.0"
 description = ""
-authors = ["Francisco <bolanosf1987@gmail.com>"]
+authors = ["f-bolanos <bolanosf1987@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.11"
-scikit-learn = "^1.4.2"
+python = "^3.10"
 pandas = "^2.2.2"
-tensorflow-io-gcs-filesystem = { version = "0.27.0"}
-tensorflow = "^2.16.1"
-
+polars = "^0.20.22"
 
 
 [build-system]
